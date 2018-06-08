@@ -1,0 +1,6 @@
+This Docker compose is to create a httpd container and nodejs container and assign a static ip to each container and make them to ping each other.
+
+To chech the httpd container pinging the nodejs container
+>docker exec -ti <httpd_cont_id> sh -c "<nodejs_cont_IPAddress>"
+
+and wise versa
